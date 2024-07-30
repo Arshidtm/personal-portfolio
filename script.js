@@ -52,7 +52,7 @@ $("#submit-form").validate({
     },
     submitHandler: function (form) {
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbzahcVu9o6GFTOPic-e8vXYyGBHPiLh_7ZSAERVuk63-uxulKMIuhZUH3H3_l8TXmXlVg/exec",
+            url: "https://script.google.com/macros/s/AKfycbyQbOes5jfXDuNsCiPwvf4nsDIFn3ChdMMTICyICt_rjaZAriYMPyb2KAWL-2AnyjF7/exec",
             data: $(form).serialize(),
             method: "post",
             success: function (response) {
